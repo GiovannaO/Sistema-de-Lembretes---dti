@@ -1,0 +1,86 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+
+header{
+    display: block;
+    background-color: purple;
+    height: 100px;
+}
+
+h1{
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.main{
+    display: inline-block;
+    width: 100%;
+   
+}
+
+/*Bloco de criação de lembretes*/
+.novo_lembrete{
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/*Bloco de exibição dos lembretes*/
+.lembretes{
+    padding: 20px;
+    width: 100%;
+}
+
+.lista_lembretes{
+    font-size: 16px;
+    text-align: center;
+}
+
+/*Títulos*/
+h2{
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    color: purple;
+}
+
+label{
+    width: 100px;
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(102, 100, 100);
+}
+
+/*Campos a serem preenchidos pelos usuários*/
+input{
+    width: 300px;
+    height: 25px;
+    margin: 8px;
+    border-radius: 2.5px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus, textarea:focus{
+    border: 1.5px solid purple;
+}
+
+/*Botão para criar um novo lembrete*/
+.botao_criar{
+    width: 100px;
+    padding: 5px;
+    border-radius: 2.5px;
+    transition-duration: 0.5s;
+    background-color: purple;
+    color: whitesmoke;
+}
+
+.botao_criar:hover{
+    background-color: rgb(65, 9, 65);
+}
