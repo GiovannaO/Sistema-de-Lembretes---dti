@@ -23,19 +23,19 @@
     <div class="main">
 
         <!--Formulário para recolher data e nome dos lembretes-->
-        <form  action="" id="formularioLembrete" method="post" class="novo_lembrete" autocomplete="off" name="formulario_lembrete">
+        <div id="novoLembrete" method="post" class="novo_lembrete" name="novo_lembrete">
 
             <h2>Novo lembrete</h2>
 
             <label for="nome">Nome</label>
-            <input type="text" id="nome" class="nome_lembrete" placeholder="Nome do lembrete" name="nome" pattern="[A-Za-z]" title="Apenas letras maiúsculas e minúsculas" required><br><br>
+            <input type="text" id="nome" class="nome_lembrete" placeholder="Nome do lembrete" name="nome" pattern="[A-Za-z]" title="Apenas letras maiúsculas e minúsculas" value="" required><br><br>
 
             <label for="data">Data</label>
-            <input type="date" id="data" class="data_lembrete" placeholder="Data do lembrete" name="data" required><br><br>
+            <input type="date" id="data" class="data_lembrete" placeholder="Data do lembrete" name="data" value="" required><br><br>
 
-            <button type="button" onclick="validarFormulario()" id="criar" class="botao_criar" onclick="">Criar</button>
+            <button type="button" id="criar" class="botao_criar" onclick="validarFormulario()" value="">Criar</button>
 
-        </form>
+        </div>
 
         <!--Div para exibição dos lembretes-->
         <div  id="lembretes" class="lembretes">
