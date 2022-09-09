@@ -84,3 +84,14 @@ input:focus, textarea:focus{
 .botao_criar:hover{
     background-color: rgb(65, 9, 65);
 }
+
+ul{
+    font-size: 16px;
+    padding: 15px;
+    color: purple;
+}
+
+li{
+    font-size: 14px;
+    padding: 10px;
+}
